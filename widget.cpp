@@ -19,7 +19,7 @@ Widget::~Widget()
 void Widget::parser()
 {
     // open the hardcoded mission.sqm ;)
-    QFile file("d://coding//test_files//mission-for-parser.sqm");
+    QFile file("d://test//mission-for-parser.sqm");
 
     if (!file.open(QIODevice::ReadOnly))
     {
